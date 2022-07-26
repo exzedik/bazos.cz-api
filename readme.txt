@@ -4,8 +4,8 @@ To get access to the full API you'll have to do some debugging yourself (which i
 
 get ads - https://www.bazos.cz/api/v1/ads.php?offset={offset}&limit={limit}&section={section}&query={query}&price_from={from}&price_to={to}&sort={sort}
 can also search by user (email={email}&phone={phone})
-## offset - 0-199
-## limit - 1-200
+## offset - 0, by increments of 20 (up to 200 but anything else than 20 will likely result in ban)
+## limit - 20, by increments of 20 (up to 200 but anything else than 20 will likely result in ban)
     sections:
         &section=XX:
             AU = Auto
