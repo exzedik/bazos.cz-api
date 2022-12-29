@@ -1,5 +1,3 @@
-Partial release of the "private" bazos.cz API because this whole website is a joke full of scammers and basically pay2sell because most of the categories are flooded by topped listings.
-Also get your site together, it's not that expensive to get a designer.
 To get access to the full API you'll have to do some debugging yourself (which is surprisingly easy) because I'm too lazy to write these down. Tutorial on how to do this is on the bottom of the page.
 
 get ads - https://www.bazos.cz/api/v1/ads.php?offset={offset}&limit={limit}&section={section}&query={query}&price_from={from}&price_to={to}&sort={sort}
